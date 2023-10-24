@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Portfólio da Juliana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="navbar">
+            <h3 class="myName" href="#apresentação"><span>Juliana</span></h3>
+            <ul>
+                <li><a class="nav-link" href="#sobre-mim">Sobre mim </a></li>
+                <li><a class="nav-link" href="#formacao">Formação</a></li>
+                <li><a class="nav-link" href="#portfolio">Portfólio</a></li>
+                <li><a class="nav-link" href="#contato">Contato </a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <main>
+        <!-- apresentação -->
+        <section id="apresentação">
+            <div class="apresentação-container">
+                <div class="apresentação-texto">
+                    <h2 class="nome"><span class="span-nome">Juliana de Sá</span> <br />
+                        <span class="span-front">Desenvolvedora Front End</span>
+                    </h2>
+
+                    <a class="button" href="#contato">Me contate</a>
+                </div>
+
+                <div>
+                    <img src="./images/pic.png" width="480px" />
+                </div>
+            </div>
+        </section>
+
+        <!-- sobre mim -->
+        <section id="sobre-mim" class="section-sobre">
+            <div class="container-sobre">
+                <div class="content-sobre">
+                    <h2 class="titulo-sobre">Sobre mim</h2>
+
+                    <p class="text-sobre">Olá, sou Juliana, uma entusiasta de desenvolvimento front-end com 18 anos de
+                        idade. Trabalho no
+                        PagBank e comecei minha jornada como menor aprendiz, onde tive a oportunidade de aprender e
+                        aplicar
+                        tecnologias. Agora, como desenvolvedora front-end, transformo ideias em interfaces incríveis.
+                        Estou
+                        sempre ansiosa para aprender mais e expandir minhas habilidades. </p>
+                </div>
+
+                <div class="habilidades">
+                    <h2 class="titulo-habilidades">Habilidades</h2>
+
+                    <ul class="tecnologias">
+                        <li class="lista-tecnologia">HTML</li>
+                        <li class="lista-tecnologia">CSS</li>
+                        <li class="lista-tecnologia">SASS</li>
+                        <li class="lista-tecnologia">JS</li>
+                        <li class="lista-tecnologia">REACT</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- formação -->
+        <section id="formacao" class="section-formação">
+            <h2 class="titulo-formação">Minha formação</h2>
+
+            <div class="container-formação">
+                <h4 class="minha-formação">• Ensino Médio</h4>
+                <p class="conclusão">(2020 - 2022)</p>
+
+                <h4 class="minha-formação">• Análise e Desenvolvimento de Sistemas</h4>
+                <p class="conclusão">Uninter</p>
+
+                <h4 class="minha-formação">• JavaScript Algorithms and Data Structures Certification</h4>
+                <p class="conclusão">freeCodeCamp</p>
+
+                <h4 class="minha-formação">• Front End Development Libraries Certification</h4>
+                <p class="conclusão">freeCodeCamp</p>
+
+                <h4 class="minha-formação">• React</h4>
+                <p class="conclusão">Scrimba</p>
+            </div>
+        </section>
+
+        <!-- portfólio -->
+        <section id="portfolio" class="section-portfolio">
+            <h2 class="titulo-portfolio">Portfólio</h2>
+            <div class="portfolio-content">
+                <div class="my-project">
+                    <img class="tenzies-project" width="380px" src="./images/my-projects/tenzies-project.png" />
+                    <p class="project-title"><a href="https://reactjs-tenzies.netlify.app" target="_blank">Tenzies</a>
+                    </p>
+                </div>
+
+                <div class="my-project">
+                    <img class="meme-project" src="./images/my-projects/meme-generator.png" width="400px" />
+                    <p class="project-title"><a href="https://julianadesa-meme-generator.netlify.app"
+                            target="_blank">Meme Generator</a></p>
+                </div>
+
+                <div class="my-project">
+                    <img class="quote-project" width="450px" src="./images/my-projects/quote-machine.png" />
+                    <p class="project-title"> <a href="https://julianadesa-quote-machine.netlify.app"
+                            target="_blank">Quote Machine</a></p>
+                </div>
+
+                <div class="my-project">
+                    <img class="newsletter-project" width="350px" src="./images/my-projects/sign-up-newsletter.png" />
+                    <p class="project-title"><a href="https://github.com/julidsa/newsletter-signup" target="_blank">Sign
+                            Up Newsletter</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- contato -->
+        <section id="contato" class="section-contato">
+            <div class="contact-container">
+                <h2 class="titulo-contact">Me contate!</h2>
+
+                <form class="form">
+                    <label>Nome: <input type="text" class="form-input" placeholder="Nome" /></label>
+                    <label>
+                        Email: <input type="email" class="form-input" placeholder="Email" />
+                    </label>
+                    Mensagem: <textarea rows="5" cols="33" placeholder="Escreva sua mensagem aqui!"></textarea>
+                    <input type="submit" class="form-submit" />
+                </form>
+            </div>
+
+            <div class="social-media">
+                <div>
+                    <a class="link" href="https://github.com/julidsa" target="_blank">
+                        <img class="icon" src="./images/icons/github-icon.png" width="40px" alt="my-github" />
+                    </a>
+                </div>
+
+                <div>
+                    <a class="link" href="https://www.linkedin.com/in/julidsa/" target="_blank">
+                        <img class="icon" src="./images/icons/linkedin-icon.png" width="38px" alt="my-linkedin" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">© Juliana de Sá</footer>
+</body>
+
+</html>
